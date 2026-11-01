@@ -13,7 +13,6 @@ def home():
     return "VANTA Instagram Bot is active and running for Ahmed! 💀🔥"
 
 def run_bot():
-    # بيانات الجلسة والرابط المستخرجة من ملفك مباشرة
     sessionid = "55171462864%3AxlD3yK2xnjdOEo%3A2%3AAYmo4YaiDbSHkMfuqtmJOZL_SaXno-ALNNnsfQCd3Q"
     media_url = "https://www.instagram.com/reel/DfNRAqZRdst/?cplk=MWRpdDM1MmlmMGh5Mw=="
     target_count = 50000
@@ -42,10 +41,9 @@ def run_bot():
         return
 
     print(f"[*] معرف المنشور المستهدف: {media_id}")
-    print(f"[*] البدء بإرسال حتى {target_count} تعليق...")
+    print(f"[*] البدء بإرسال حتى {target_count} تعليق (بالسرعة المُسَرّعة)...")
 
     success_count = 0
-    # تنويع التعليقات تلقائياً لحماية حسابك من الحظر البرمجي
     comments_pool = [
         "يالله توفيقك , سبحان الله وبحمده🫀",
         "يا رب توفيقك، سبحان الله وبحمده ✨",
@@ -61,13 +59,13 @@ def run_bot():
             success_count += 1
             print(f"[✓] تم إرسال التعليق رقم ({success_count}/{target_count}): {comment_text}")
             
-            # فترة انتظار عشوائية آمنة بين 25 إلى 50 ثانية
-            time.sleep(random.uniform(25, 50))
+            # تم تسريع الإيقاع يدوياً لتصبح الفترة بين 6 إلى 12 ثانية فقط
+            time.sleep(random.uniform(6, 12))
             
         except Exception as e:
             print(f"[x] خطأ أثناء النشر: {e}")
-            print("[*] تبريد مؤقت للحساب لمدة 15 دقيقة تفادياً للحظر...")
-            time.sleep(900)
+            print("[*] تبريد مؤقت للحساب لمدة 5 دقائق تفادياً لأي تقييد...")
+            time.sleep(300)
 
     print(f"[+] اكتملت العملية بنجاح يا سيدي أحمد! الإجمالي المرسل: {success_count}")
 
