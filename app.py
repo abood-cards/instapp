@@ -16,7 +16,7 @@ def run_bot():
     # بيانات الجلسة والرابط المستخرجة من ملفك مباشرة
     sessionid = "55171462864%3AxlD3yK2xnjdOEo%3A2%3AAYmo4YaiDbSHkMfuqtmJOZL_SaXno-ALNNnsfQCd3Q"
     media_url = "https://www.instagram.com/reel/DfNRAqZRdst/?cplk=MWRpdDM1MmlmMGh5Mw=="
-    target_count = 10000
+    target_count = 50000
 
     client = Client()
     print("[*] جاري تسجيل الدخول عبر جلسة المتصفح على سحاب ريندر...")
