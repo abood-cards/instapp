@@ -13,7 +13,7 @@ def home():
     return "VANTA Instagram Bot is active and running for Ahmed! 💀🔥"
 
 def run_bot():
-    sessionid = "55171462864%3AxlD3yK2xnjdOEo%3A2%3AAYmo4YaiDbSHkMfuqtmJOZL_SaXno-ALNNnsfQCd3Q"
+    sessionid = "55171462864%3APW8b1TI7joFJlQ%3A15%3AAYmlklwKQT1oakleuDp93h28KK-U7f74YxxXar-mOA"
     media_url = "https://www.instagram.com/reel/DfNRAqZRdst/?cplk=MWRpdDM1MmlmMGh5Mw=="
     target_count = 50000
 
