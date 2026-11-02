@@ -60,7 +60,7 @@ def run_bot():
             print(f"[✓] تم إرسال التعليق رقم ({success_count}/{target_count}): {comment_text}")
             
             # تم تسريع الإيقاع يدوياً لتصبح الفترة بين 6 إلى 12 ثانية فقط
-            time.sleep(random.uniform(6, 12))
+            time.sleep(random.uniform(0, 1))
             
         except Exception as e:
             print(f"[x] خطأ أثناء النشر: {e}")
